@@ -3,14 +3,14 @@
 # Find whether a given positive integer n is perfect or not.
 
 def perfect_number(n):
-    sum = 0
+    total = 0
     for i in range(1, n):
-        if (n % i == 0):
-            sum += i
-    return sum == n
+        if n % i == 0:
+            total += i
+    return total == n
 
 n = 28
-if (perfect_number(n)):
+if perfect_number(n):
     print("Perfect number")
 else:
-    print("Not a perfect number")                
+    print("Not a perfect number")              

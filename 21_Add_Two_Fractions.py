@@ -4,12 +4,9 @@
 # and return the numerator and denominator of the result.
 
 def add_fraction(a, b):
-
     n1, d1 = a
     n2, d2 = b
-
     new_numerator = (n1 * d2) + (n2 * d1)
-
     new_denominator = (d1 * d2)
 
     for i in range(1, min(new_numerator, new_denominator) + 1):

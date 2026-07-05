@@ -20,7 +20,7 @@ def is_armstrong(n):
         n //= 10
     return total == original
 
-n = 15
+n = 153
 if is_armstrong(n):
     print("Armstrong Number")
 else:

@@ -2,11 +2,11 @@
 # LCM of two numbers is the smallest number which can be divided by both numbers. 
 
 def lcm(a, b):
-    lcm = max(a, b)
+    candidate = max(a, b)
     while True:
-        if ((a % lcm == 0) and (b % lcm == 0)):
-            return lcm 
-            lcm +=1
+        if candidate % a == 0 and candidate % b == 0:
+            return candidate
+        candidate += 1
 
 a = 4
 b = 6

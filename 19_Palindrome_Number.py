@@ -2,15 +2,16 @@
 # A number is called a palindrome if it reads the same from forward and backward.
 
 def is_palindrome(n):
-    rev  = 0
-    while (n > 0):
-        a = n % 10
-        rev = rev * 10 + a
+    original = n
+    rev = 0
+    while n > 0:
+        digit = n % 10
+        rev = rev * 10 + digit
         n //= 10
-    return rev    
+    return rev == original
 
 n = 87898
-if (is_palindrome(n) == n):
-    print("palindrome")
+if is_palindrome(n):
+    print("Palindrome")
 else:
-    print("not a palindrome")        
+    print("Not a Palindrome")
