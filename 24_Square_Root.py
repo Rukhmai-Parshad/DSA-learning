@@ -1,4 +1,5 @@
-# Given a positive integer n, find its square root. If n is not a perfect square, then return floor of √n.
+# Given a positive integer n, find its square root. 
+# If n is not a perfect square, then return floor of √n.
 
 def square_root(n):
 
