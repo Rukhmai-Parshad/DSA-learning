@@ -1,4 +1,4 @@
-# Square Pattern
+# Square Printing.
 
 n = 5
 
