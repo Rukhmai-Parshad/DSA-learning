@@ -9,4 +9,4 @@ def total(arr):
     return total
 
 arr = [10, 20, 30, 40, 50]
-print(total(arr))        
+print(total(arr))
